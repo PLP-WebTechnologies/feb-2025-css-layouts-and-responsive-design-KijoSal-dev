@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">WRC Champonship</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li>
+                    <div class="search-container">
+                       <input type="text" placeholder="Search...">
+                       <button type="submit"><i class="fa fa-search"></i></button>
+                     </div>
+                  </li>
+             </ul>
+         </nav>
+     </header>
+ 
+      
+
+    <main>
+        <section id="hero">
+            <h1>Welcome!</h1>
+            <p>This is a simple website for world rally championship.</p>
+            <button>Learn More</button>
+
+            <!-- Example Image in Hero Section -->
+            <img src="mcerlean.jpg" alt="Hero Image" class="hero-image">
+        </section>
+
+        <section id="content">
+            <div class="content-item">
+                <h2>Online Shop</h2>
+                <img src="image1.jpg" alt="Item 1 Image" class="content-image">
+                <p>Get ready to Feel The Roar with our WRC collection, where each piece captures the essence of the World Safari Rally. From rugged apparel to stylish accessories and drinkware, our designs blend untamed flair with refined elegance, ensuring you're equipped for your adventure.</p>
+            </div>
+            <div class="content-item">
+                <h2>Highlights</h2>
+                <!-- Example Video -->
+                <video width="320" height="240" controls class="content-video">
+                    <source src="74-135732548_small.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Safari Rally is known as one of the toughest and most unpredictable events on the calendar, challenging drivers with rough terrain, deep ruts, and the ever-present threat of sudden rainfall.</p>
+            </div>
+            <div class="content-item">
+                <h2>Media</h2>
+                <img src="img3.jpg" alt="Item 3 Image" class="content-image">
+                <p> Discover Beyond The Ordinary Content
+                    Explore stories, photos, videos and audio content, free and rights-cleared for editorial and news use on media channels
+                    </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 WRC Champonship Website</p>
+    </footer>
+
+</body>
+</html>
